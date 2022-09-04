@@ -1,0 +1,16 @@
+{
+    "name": "pro/freamwork",
+    "description": "pro freamwork",
+    "license": "MIT",
+    "type": "freamwork",
+    "require": {
+        "php":"^8",
+        "wixel/gump": "^1.11"
+     
+    },
+    "autoload": {
+        "psr-4": {
+           "mvc\\":"app"
+        }
+    }
+}
